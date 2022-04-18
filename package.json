@@ -1,0 +1,16 @@
+{
+  "name": "todoist-electronjs",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "maria.js",
+  "author": "Jane Doe",
+  "license": "MIT",
+
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^18.0.4",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
