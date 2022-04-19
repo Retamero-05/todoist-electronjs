@@ -8,8 +8,8 @@ require('electron-reload')(__dirname, {
 
 const createWindow = () => {
   const win = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1000,
+    height: 900,
     icon:`${__dirname}/assets/icon.png`
 
   })
