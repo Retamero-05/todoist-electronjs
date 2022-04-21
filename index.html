@@ -30,13 +30,19 @@
     <div class="atividade">
       <h3>O que vou fazer hoje??</h3>
       <input type="text" placeholder="Escreva a sua Atividade" />
-      <button>Adicionar <i class="fa-solid fa-plus"></i></button>
+      <button onclick="adicionarItem()">
+        <i class="fa-solid fa-plus"></i>
+        Adicionar
+      </button>
     </div>
 
-    <ul>
+    <ul id="lista-de-tarefas">
       <li>Minha primeira tarefa</li>
       <li>Minha segunda tarefa</li>
       <li>Minha terceira tarefa</li>
     </ul>
+    <!--importando script responsável pela lógica do todo-list-->
+
+    <script src="./todo-list.js"></script>
   </body>
 </html>
