@@ -29,18 +29,21 @@
 
     <div class="atividade">
       <h3>O que vou fazer hoje??</h3>
-      <input type="text" placeholder="Escreva a sua Atividade" />
+      <input
+        onkeypress="adicionarItemPelaTecla(event)"
+        type="text"
+        placeholder="Escreva sua atividade"
+        id="texto"
+        type="text"
+        placeholder="Escreva a sua Atividade"
+      />
       <button onclick="adicionarItem()">
         <i class="fa-solid fa-plus"></i>
         Adicionar
       </button>
     </div>
 
-    <ul id="lista-de-tarefas">
-      <li>Minha primeira tarefa</li>
-      <li>Minha segunda tarefa</li>
-      <li>Minha terceira tarefa</li>
-    </ul>
+    <ul id="lista-de-tarefas"></ul>
     <!--importando script responsável pela lógica do todo-list-->
 
     <script src="./todo-list.js"></script>
