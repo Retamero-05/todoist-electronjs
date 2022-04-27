@@ -70,3 +70,12 @@ b {
   color: red;
   cursor: pointer;
 }
+
+i {
+  cursor: pointer;
+}
+
+.concluida {
+  color: #ff0008;
+  text-decoration: line-through;
+}
